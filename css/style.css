@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 60px;
@@ -71,6 +72,9 @@ li a:hover {
     font-weight: 700;
     border-radius: 30px;
 }
+.top-heading {
+    color: #5a5a5a;
+}
 .about-me-banner{
     display: flex;
     background-image: url('../images/shapes/7.png');
@@ -100,6 +104,7 @@ li a:hover {
 }
 .my-recipies-content h2{
     text-align: center;
+    color: #808080;
 }
 .my-recipies-content p{
     text-align: center;
