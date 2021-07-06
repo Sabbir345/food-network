@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 38px;
+}
+p{
+    font-size: 18px;
+}
+ul {
+  list-style-type: none;
+  padding: 30px;
+  margin:0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.menu-container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.hero-area{
+    display: flex;
+    height: 770px;
+}
+.focus-image {
+    width: 50%;
+    text-align: center;
+}
+.orange-text{
+    color: orange;
+}
+.focus-content {
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+.focus-image img{
+    width: 75%;
+    padding-top: 10%; 
+}
+.head-small-text {
+    padding-bottom: 50px;
+}
+.order-food{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.about-me-banner{
+    display: flex;
+    background-image: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me-image{
+    width: 50%;
+    text-align: center;
+}
+.about-me-image img{
+    width: 39%;
+    padding-top: 9%;
+}
+.about-me-content {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.about-me{
+    width: 60%;
+    padding-bottom: 5%;
+}
+.my-recipies-banner{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.my-recipies-content h2{
+    text-align: center;
+}
+.my-recipies-content p{
+    text-align: center;
+}
+.contact-me{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.three-box{
+    padding-left: 6%; 
+    padding-right: 6%; 
+    display: flex;
+}
+.recipies-box {
+  width: 27%;
+  padding: 20px;
+  margin:20px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.recipies-box img {
+    width: 100%;
+    border-radius: 20px;
+}
+.footer-area{
+    background-color: #202A44;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.gray-color-text{
+    color: #808080;
+}
+.footer-content p{
+    color: #ffffff;
+}
